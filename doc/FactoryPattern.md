@@ -20,7 +20,7 @@
 <br/>
 
 [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)
-又叫做*超级工厂/工厂的工厂*，是对工厂模式更高级别的抽象，主要目的是用来**解决组合问题**，将多种类型的产品组合起来变成新的产品，订立新产品的统一标准（abstract class）
+又叫做 *超级工厂/工厂的工厂*，是对工厂模式更高级别的抽象，主要目的是用来 **解决组合问题**，将多种类型的产品组合起来变成新的产品，订立新产品的统一标准（abstract class）
 
 更多细节，见下
 
