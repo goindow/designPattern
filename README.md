@@ -1,4 +1,4 @@
-# designPattern
+# 设计模式 - designPattern
 常用的设计模式解析，包含 UML 类图及实现
 
 ## 索引
