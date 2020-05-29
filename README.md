@@ -4,8 +4,8 @@
 ## 索引
 - 创建型
   - 工厂模式
-    - [简单工厂](https://github.com/goindow/designPattern/doc/factory/SimpleFactoryPattren.md)
-    - [工厂方法](https://github.com/goindow/designPattern/doc/factory/FactoryMethodPattern.md)
-    - [抽象工厂](https://github.com/goindow/designPattern/doc/factory/AbstractFactory.md)
+    - [简单工厂](https://github.com/goindow/designPattern/doc/factoryPattern/SimpleFactoryPattren.md)
+    - [工厂方法](https://github.com/goindow/designPattern/doc/factoryPattern/FactoryMethodPattern.md)
+    - [抽象工厂](https://github.com/goindow/designPattern/doc/factoryPattern/AbstractFactory.md)
 - 结构型
 - 行为型
