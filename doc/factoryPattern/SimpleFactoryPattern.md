@@ -28,9 +28,6 @@ public class BydEngine implements Engine {
 
 3. 简单工厂类（单方法）
 ```java
-/**
- * 简单工厂模式 - 单方法/静态方法
- * */
 public class EngineFactory1 {
     public static Engine create(String engineName) {
         switch (engineName.toLowerCase()) {
@@ -62,16 +59,13 @@ public class EngineFactory1Test {
 ```
 
 <br/>
+
 可以看到，单方法的简单工厂有一个很大的弊端，如果传递的参数不正确，将返回 null。为了避免返这种情况，我们将单方发改造成多方法，每个方法负责实例化一个类
+
 <br/>
 
 3.1. 简单工厂类（多方法）
 ```java
-/**
- * 简单工厂模式 - 多方法/静态方法
- *
- * 单方法/静态方法下，需要调用者传递正确的参数才能返回对象，为了避免这种情况，为每个产品类使用对应的一个方法生产产品对象
- * */
 public class EngineFactory2 {
     public static Engine createBydEngine() { return new BydEngine(); }
     public static Engine createBmwEngine() { return new BmwEngine(); }
