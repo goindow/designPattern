@@ -132,10 +132,10 @@ public class BydCarFactoryTest {
 
 - 再考察一下，如果想增加一个工厂(比如，奥迪)，如何扩展？这里的情况比较复杂
 > 抽象工厂类 CarFactory 是否有新增的产品类型（比如，底盘）？
-> 1. false，直接新增一个 CarFactory 子类即可（AudiCarFactory）
-> 2. true，现有的工厂子类（比如，BmwCarFactory/BydCarFactory）是否也需要新增的产品类型（比如，底盘）？
->   1. false，那么直接新增一个抽象工厂类（比如，CarFactory2），再新增一个 CarFactory2 子类即可
->   2. true，这种情况下必定要违反 *"开闭原则"*，修改现有代码了
+> - False，直接新增一个 CarFactory 子类即可（AudiCarFactory）
+> - True，现有的工厂子类（比如，BmwCarFactory/BydCarFactory）是否也需要新增的产品类型（比如，底盘）？
+>   - False，那么直接新增一个抽象工厂类（比如，CarFactory2），再新增一个 CarFactory2 子类即可
+>   - True，这种情况下必定要违反 *"开闭原则"*，修改现有代码了
 
 ## 相关链接
 - [工厂模式](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryPattern.md)
