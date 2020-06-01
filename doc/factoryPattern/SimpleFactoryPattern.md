@@ -95,8 +95,8 @@ public class EngineFactory2Test {
 <br/>
 现在能获取到我们想要的对象了。考察一下，我们现在想增加一种引擎实现，我们需要如何改造？
 
-1. 新增一个 Engine 实现类
-2. 修改 EngineFactory2，新增对应方法
+- 新增一个 Engine 实现类
+- 修改 EngineFactory2，新增对应方法
 
 可以看见，简单工厂违反了"开闭原则"，不便于扩展扩展。
 使用 [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md) 就能很好的避免。
