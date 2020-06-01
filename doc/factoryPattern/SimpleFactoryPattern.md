@@ -5,8 +5,10 @@
 ![simpleFactory_singl](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/UML/simpleFactory_single.png?raw=true)
 ![simpleFactory_singl](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/UML/simpleFactory_multiple.png?raw=true)
 
+## 示例代码
+[简单工厂](https://github.com/goindow/designPattern/tree/master/src/main/java/com/goindow/design/create/factory/simple)
+
 ## 解析
-> [示例代码](https://github.com/goindow/designPattern/tree/master/src/main/java/com/goindow/design/create/factory/simple)
 
 1. 定义一套产品接口（引擎）
 ```java
