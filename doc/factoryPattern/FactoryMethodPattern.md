@@ -2,13 +2,12 @@
 定义工厂接口，使用工厂子类决定实例化哪一个产品子类
 
 ## UML 类图
-![simpleFactory_singl](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/UML/FactoryMethod.png?raw=true)
-
+![simpleFactory_singl](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/UML/factoryMethod.png?raw=true)
 
 ## 解析
 > [示例代码](https://github.com/goindow/designPattern/tree/master/src/main/java/com/goindow/design/create/factory/method)
 
-1. 定义一套产品接口（引擎）
+1. 定义产品接口（引擎）
 ```java
 public interface Engine {
     void start();

@@ -8,7 +8,7 @@
 ## 解析
 > [示例代码](https://github.com/goindow/designPattern/tree/master/src/main/java/com/goindow/design/create/factory/simple)
 
-1. 定义一套产品接口（引擎）
+1. 定义产品接口（引擎）
 ```java
 public interface Engine {
     void start();
