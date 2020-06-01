@@ -138,9 +138,10 @@ public class BydCarFactoryTest {
 >   - True，这种情况下必定要违反 *"开闭原则"*，修改现有代码了
 
 ## 相关链接
-- [工厂模式](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryPattern.md)
-  - [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)
-  - [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)
-  - 抽象工厂
+- [首页](https://github.com/goindow/designPattern)
+  - [工厂模式](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryPattern.md)
+    - [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)
+    - [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)
+    - 抽象工厂
 
 
