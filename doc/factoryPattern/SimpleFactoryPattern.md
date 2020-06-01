@@ -94,8 +94,6 @@ public class EngineFactory2Test {
 可以看见，简单工厂违反了"开闭原则"，不便于扩展。
 使用 [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md) 就能很好的避免。
 
-详见，
-
 ## 相关链接
 - [工厂模式](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryPattern.md)
   - 简单工厂
