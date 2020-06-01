@@ -1,7 +1,7 @@
 # 工厂模式 - FactoryPattern
-- [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)，定义一套产品接口，使用工厂实例化产品子类
-- [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)，定义一套工厂接口，使用工厂子类决定实例化哪一个产品子类
-- [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)，为创建一组相关/相互依赖的产品子类提供一套工厂抽象类，使用工厂子类决定如何组合和实例化产品子类，且无需指定它们的具体类。
+- [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)，定义产品接口，使用工厂类相关方法决定实例化哪一个产品子类
+- [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)，定义工厂接口，使用工厂子类决定实例化哪一个产品子类
+- [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)，定义 *为创建一组相关/相互依赖的产品子类的* 工厂抽象类，使用工厂子类决定如何组合和实例化产品子类，且无需指定它们的具体类。
 
 > [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)\/[工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md) 和
 > [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md) 可以认为是两种不同的设计模式
