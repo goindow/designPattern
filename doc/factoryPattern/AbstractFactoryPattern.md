@@ -122,7 +122,7 @@ public class BydCarFactoryTest {
 }
 ```
 
-可以看见，当需要 *创建一组相关/相互依赖的产品子类* 的时候，可以 **抽象工厂模式** 来组合和实例化这些产品子类，且无需指定它们的具体类。
+可以看见，当需要 *创建一组相关/相互依赖的产品子类* 的时候，可以使用 **抽象工厂模式** 来组合和实例化这些产品子类，且无需指定它们的具体类。
 
 ## 相关链接
 - [工厂模式](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryPattern.md)
