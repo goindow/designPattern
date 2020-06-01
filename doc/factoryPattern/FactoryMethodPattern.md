@@ -65,7 +65,7 @@ public class BydEngineFactoryTest {
 }
 ```
 
-考察一下，我们现在想增加一种 Engine 产品子类，我们需要如何改造？
+考察一下，如果想增加一种 Engine 产品子类，我们需要如何改造？
 > 1. 新增一个 Engine 产品子类
 > 2. 新增对应的 EngineFactory 工厂子类
 
