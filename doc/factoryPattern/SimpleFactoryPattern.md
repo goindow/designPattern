@@ -3,6 +3,7 @@
 
 ## UML 类图
 ![simpleFactory_singl](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/UML/simpleFactory_single.png?raw=true)
+![simpleFactory_singl](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/UML/simpleFactory_multiple.png?raw=true)
 
 ## 解析
 > [示例代码](https://github.com/goindow/designPattern/tree/master/src/main/java/com/goindow/design/create/factory/simple)
