@@ -1,5 +1,5 @@
 # 简单工厂模式
-定义一套接口，使用简单工厂实例化该接口的实现类
+定义产品接口，使用工厂类相关方法决定实例化哪一个产品子类
 
 ## UML 类图
 ![simpleFactory_singl](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/UML/simpleFactory_single.png?raw=true)
