@@ -8,6 +8,8 @@
     - [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)
     - [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)
   - 单例模式
+    - 非线程安全单例
+    - 线程安全单例
   - 原型模式
   - 生成器模式
 - 结构型
