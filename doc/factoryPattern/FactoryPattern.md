@@ -1,7 +1,7 @@
 # 工厂模式 - FactoryPattern
-- [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)，定义一套接口，使用简单工厂实例化该接口的实现类
-- [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)，定义一个用于创建对象的接口，让子类决定实例化哪一个类。工厂方法是一个类的实例化延迟到其子类。
-- [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)，为创建一组相关或相互依赖的对象提供一个接口，而且无需指定它们的具体类。
+- [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)，定义一套产品接口，使用工厂实例化产品子类
+- [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)，定义一套工厂接口，使用工厂子类决定实例化哪一个产品子类
+- [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)，为创建一组相关/相互依赖的产品子类提供一套工厂抽象类，使用工厂子类决定如何组合和实例化产品子类，且无需指定它们的具体类。
 
 > [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)\/[工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md) 和
 > [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md) 可以认为是两种不同的设计模式
@@ -15,12 +15,15 @@
 > [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)\/[工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)
 一般用来生产单个类型的产品（发动机工厂、变速箱工厂...），订立单个产品的统一的标准（interface）。
 
+<br/>
+
 假设现在需要生产整车，就需要建造汽车工厂，并且需要发动机、变速箱等，要如何组织生产？同样的，汽车工厂可能也不只一家，是不是也需要有一个统一的造车标准？这时候
 [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)
 (宝马汽车工厂、比亚迪汽车工厂...)就派上了用场。
 
 > [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)
-又叫做 *超级工厂/工厂的工厂*，是对工厂模式更高级别的抽象，主要目的是用来 **解决组合问题**，将多种类型的产品组合起来变成新的产品，订立新产品的统一标准（abstract class）。
+又叫做 *超级工厂/工厂的工厂*，是对工厂模式更高级别的抽象，主要目的是用来 **解决组合问题**，将一组相关/相互依赖的产品组合起来变成新的产品，订立新产品的统一标准（abstract class）。
+
 
 ## 相关链接
 - [工厂模式](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryPattern.md)
