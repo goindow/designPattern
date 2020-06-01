@@ -6,7 +6,6 @@
 > [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)\/[工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md) 和
 > [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md) 可以认为是两种不同的设计模式
 
-
 ## 解析
 正如模式名一样，工厂负责生产产品，产品的分类（发动机、变速箱...）有很多，但每种产品最好能有统一的标准，这样一旦有人想生产同样的产品，只需要按照产品标准来生产即可。
 [简单工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/SimpleFactoryPattern.md)\/[工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md)
@@ -24,7 +23,7 @@
 > [抽象工厂](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/AbstractFactoryPattern.md)
 又叫做 *超级工厂/工厂的工厂*，是对工厂模式更高级别的抽象，主要目的是用来 **解决组合问题**，将一组相关/相互依赖的产品组合起来变成新的产品，订立新产品的统一标准（abstract class）。
 
-<br/>
+详见，
 
 ## 相关链接
 - [工厂模式](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryPattern.md)
