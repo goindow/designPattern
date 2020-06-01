@@ -24,7 +24,6 @@ public class BmwEngine implements Engine {
 public class BydEngine implements Engine {
     public void start() { System.out.println("BydEngine::start()"); }
 }
-
 ```
 
 3. 简单工厂类（单方法）
@@ -59,11 +58,7 @@ public class EngineFactory1Test {
 }
 ```
 
-<br/>
-
 可以看到，单方法的简单工厂有一个很大的弊端，如果传递的参数不正确，将返回 null。为了避免这种情况，将单方发改造成多方法，每个方法负责实例化一个类
-
-<br/>
 
 3.1. 简单工厂类（多方法）
 ```java
@@ -92,12 +87,9 @@ public class EngineFactory2Test {
 }
 ```
 
-<br/>
 现在能获取到我们想要的对象了。考察一下，我们现在想增加一种引擎实现，我们需要如何改造？
-<br/>
-- 新增一个 Engine 实现类
-- 修改 EngineFactory2，新增对应方法
-
+> 1. 新增一个 Engine 实现类
+> 2. 修改 EngineFactory2，新增对应方法
 可以看见，简单工厂违反了"开闭原则"，不便于扩展扩展。
 使用 [工厂方法](https://github.com/goindow/designPattern/blob/master/doc/factoryPattern/FactoryMethodPattern.md) 就能很好的避免。
 
